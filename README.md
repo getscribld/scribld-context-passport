@@ -97,6 +97,8 @@ mkdir -p ~/.claude/skills/context-passport && \
   -o ~/.claude/skills/context-passport/SKILL.md
 ```
 
+Requires a Claude Code version with Skills support (v2+). If a slash command isn't recognized, update Claude Code first.
+
 Manual alternative: create `~/.claude/skills/context-passport/`, download [`SKILL.md`](https://raw.githubusercontent.com/getscribld/scribld-context-passport/main/SKILL.md) from this repo, and drop it in that folder.
 
 Then, in any project, run `/context-passport` or say "generate a context passport."
